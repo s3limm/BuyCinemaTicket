@@ -29,7 +29,7 @@ private void MainMenu_Load(object sender, EventArgs e)
         Button button = new Button();
         button.Location = new Point(45 * (i), 45 * (i + 1));
         button.Size = new Size(290, 32);
-        button.Text = movie.category[i];
+        
                 
     }
 

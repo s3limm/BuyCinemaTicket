@@ -36,17 +36,17 @@
             this.pb3 = new System.Windows.Forms.PictureBox();
             this.pb2 = new System.Windows.Forms.PictureBox();
             this.pb1 = new System.Windows.Forms.PictureBox();
-            this.btnAction = new System.Windows.Forms.Button();
-            this.btnAdvanture = new System.Windows.Forms.Button();
-            this.btnComedy = new System.Windows.Forms.Button();
-            this.btnRomantic = new System.Windows.Forms.Button();
-            this.btnThrıller = new System.Windows.Forms.Button();
-            this.btnScience = new System.Windows.Forms.Button();
+            this.pb9 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnHorror = new System.Windows.Forms.Button();
             this.btnAnimation = new System.Windows.Forms.Button();
-            this.pb9 = new System.Windows.Forms.PictureBox();
             this.btnCrime = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnRomantic = new System.Windows.Forms.Button();
+            this.btnComedy = new System.Windows.Forms.Button();
+            this.btnAdvanture = new System.Windows.Forms.Button();
+            this.btnAction = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
@@ -138,83 +138,6 @@
             this.pb1.TabIndex = 0;
             this.pb1.TabStop = false;
             // 
-            // btnAction
-            // 
-            this.btnAction.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnAction.FlatAppearance.BorderSize = 0;
-            this.btnAction.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnAction.Font = new System.Drawing.Font("Cambria Math", 30.25F);
-            this.btnAction.ForeColor = System.Drawing.Color.GhostWhite;
-            this.btnAction.Location = new System.Drawing.Point(24, 349);
-            this.btnAction.Name = "btnAction";
-            this.btnAction.Size = new System.Drawing.Size(290, 32);
-            this.btnAction.TabIndex = 5;
-            this.btnAction.Text = "Action";
-            this.btnAction.UseVisualStyleBackColor = false;
-            // 
-            // btnAdvanture
-            // 
-            this.btnAdvanture.Location = new System.Drawing.Point(358, 349);
-            this.btnAdvanture.Name = "btnAdvanture";
-            this.btnAdvanture.Size = new System.Drawing.Size(290, 23);
-            this.btnAdvanture.TabIndex = 5;
-            this.btnAdvanture.Text = "button1";
-            this.btnAdvanture.UseVisualStyleBackColor = true;
-            // 
-            // btnComedy
-            // 
-            this.btnComedy.Location = new System.Drawing.Point(692, 349);
-            this.btnComedy.Name = "btnComedy";
-            this.btnComedy.Size = new System.Drawing.Size(290, 23);
-            this.btnComedy.TabIndex = 5;
-            this.btnComedy.Text = "button1";
-            this.btnComedy.UseVisualStyleBackColor = true;
-            // 
-            // btnRomantic
-            // 
-            this.btnRomantic.Location = new System.Drawing.Point(24, 588);
-            this.btnRomantic.Name = "btnRomantic";
-            this.btnRomantic.Size = new System.Drawing.Size(290, 23);
-            this.btnRomantic.TabIndex = 5;
-            this.btnRomantic.Text = "button1";
-            this.btnRomantic.UseVisualStyleBackColor = true;
-            // 
-            // btnThrıller
-            // 
-            this.btnThrıller.Location = new System.Drawing.Point(692, 588);
-            this.btnThrıller.Name = "btnThrıller";
-            this.btnThrıller.Size = new System.Drawing.Size(290, 23);
-            this.btnThrıller.TabIndex = 5;
-            this.btnThrıller.Text = "button1";
-            this.btnThrıller.UseVisualStyleBackColor = true;
-            // 
-            // btnScience
-            // 
-            this.btnScience.Location = new System.Drawing.Point(358, 588);
-            this.btnScience.Name = "btnScience";
-            this.btnScience.Size = new System.Drawing.Size(290, 23);
-            this.btnScience.TabIndex = 5;
-            this.btnScience.Text = "button1";
-            this.btnScience.UseVisualStyleBackColor = true;
-            // 
-            // btnHorror
-            // 
-            this.btnHorror.Location = new System.Drawing.Point(24, 831);
-            this.btnHorror.Name = "btnHorror";
-            this.btnHorror.Size = new System.Drawing.Size(290, 23);
-            this.btnHorror.TabIndex = 5;
-            this.btnHorror.Text = "button1";
-            this.btnHorror.UseVisualStyleBackColor = true;
-            // 
-            // btnAnimation
-            // 
-            this.btnAnimation.Location = new System.Drawing.Point(358, 831);
-            this.btnAnimation.Name = "btnAnimation";
-            this.btnAnimation.Size = new System.Drawing.Size(290, 23);
-            this.btnAnimation.TabIndex = 5;
-            this.btnAnimation.Text = "button1";
-            this.btnAnimation.UseVisualStyleBackColor = true;
-            // 
             // pb9
             // 
             this.pb9.Image = global::CİnemaBuyTicket.Properties.Resources.crime_fpg;
@@ -224,15 +147,6 @@
             this.pb9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb9.TabIndex = 1;
             this.pb9.TabStop = false;
-            // 
-            // btnCrime
-            // 
-            this.btnCrime.Location = new System.Drawing.Point(692, 831);
-            this.btnCrime.Name = "btnCrime";
-            this.btnCrime.Size = new System.Drawing.Size(290, 23);
-            this.btnCrime.TabIndex = 5;
-            this.btnCrime.Text = "button1";
-            this.btnCrime.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -248,21 +162,107 @@
             this.label1.Text = "Categories";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btnHorror
+            // 
+            this.btnHorror.Location = new System.Drawing.Point(24, 844);
+            this.btnHorror.Name = "btnHorror";
+            this.btnHorror.Size = new System.Drawing.Size(290, 23);
+            this.btnHorror.TabIndex = 5;
+            this.btnHorror.Text = "button1";
+            this.btnHorror.UseVisualStyleBackColor = true;
+            // 
+            // btnAnimation
+            // 
+            this.btnAnimation.Location = new System.Drawing.Point(358, 844);
+            this.btnAnimation.Name = "btnAnimation";
+            this.btnAnimation.Size = new System.Drawing.Size(290, 23);
+            this.btnAnimation.TabIndex = 5;
+            this.btnAnimation.Text = "button1";
+            this.btnAnimation.UseVisualStyleBackColor = true;
+            // 
+            // btnCrime
+            // 
+            this.btnCrime.Location = new System.Drawing.Point(692, 844);
+            this.btnCrime.Name = "btnCrime";
+            this.btnCrime.Size = new System.Drawing.Size(290, 23);
+            this.btnCrime.TabIndex = 5;
+            this.btnCrime.Text = "button1";
+            this.btnCrime.UseVisualStyleBackColor = true;
+            // 
+            // btnRomantic
+            // 
+            this.btnRomantic.Location = new System.Drawing.Point(24, 588);
+            this.btnRomantic.Name = "btnRomantic";
+            this.btnRomantic.Size = new System.Drawing.Size(290, 23);
+            this.btnRomantic.TabIndex = 5;
+            this.btnRomantic.Text = "button1";
+            this.btnRomantic.UseVisualStyleBackColor = true;
+            // 
+            // btnComedy
+            // 
+            this.btnComedy.Location = new System.Drawing.Point(692, 588);
+            this.btnComedy.Name = "btnComedy";
+            this.btnComedy.Size = new System.Drawing.Size(290, 23);
+            this.btnComedy.TabIndex = 5;
+            this.btnComedy.Text = "button1";
+            this.btnComedy.UseVisualStyleBackColor = true;
+            // 
+            // btnAdvanture
+            // 
+            this.btnAdvanture.Location = new System.Drawing.Point(358, 588);
+            this.btnAdvanture.Name = "btnAdvanture";
+            this.btnAdvanture.Size = new System.Drawing.Size(290, 23);
+            this.btnAdvanture.TabIndex = 5;
+            this.btnAdvanture.Text = "button1";
+            this.btnAdvanture.UseVisualStyleBackColor = true;
+            // 
+            // btnAction
+            // 
+            this.btnAction.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnAction.FlatAppearance.BorderSize = 0;
+            this.btnAction.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnAction.Font = new System.Drawing.Font("Cambria Math", 30.25F);
+            this.btnAction.ForeColor = System.Drawing.Color.GhostWhite;
+            this.btnAction.Location = new System.Drawing.Point(24, 349);
+            this.btnAction.Name = "btnAction";
+            this.btnAction.Size = new System.Drawing.Size(290, 32);
+            this.btnAction.TabIndex = 5;
+            this.btnAction.Text = "Action";
+            this.btnAction.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(358, 349);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(290, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(692, 349);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(290, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "button1";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(5)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(1021, 658);
+            this.ClientSize = new System.Drawing.Size(1004, 658);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnThrıller);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnComedy);
             this.Controls.Add(this.btnCrime);
             this.Controls.Add(this.btnAnimation);
-            this.Controls.Add(this.btnScience);
             this.Controls.Add(this.btnHorror);
             this.Controls.Add(this.btnRomantic);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdvanture);
             this.Controls.Add(this.btnAction);
             this.Controls.Add(this.pb9);
@@ -301,17 +301,17 @@
         private System.Windows.Forms.PictureBox pb6;
         private System.Windows.Forms.PictureBox pb5;
         private System.Windows.Forms.PictureBox pb4;
-        private System.Windows.Forms.Button btnAdvanture;
-        private System.Windows.Forms.Button btnComedy;
-        private System.Windows.Forms.Button btnRomantic;
-        private System.Windows.Forms.Button btnThrıller;
-        private System.Windows.Forms.Button btnScience;
+        private System.Windows.Forms.PictureBox pb9;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnHorror;
         private System.Windows.Forms.Button btnAnimation;
-        private System.Windows.Forms.PictureBox pb9;
         private System.Windows.Forms.Button btnCrime;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRomantic;
+        private System.Windows.Forms.Button btnComedy;
+        private System.Windows.Forms.Button btnAdvanture;
         private System.Windows.Forms.Button btnAction;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
